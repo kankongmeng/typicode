@@ -1,0 +1,196 @@
+{
+  "status": {
+    "code": 200,
+    "name": "OK",
+    "message": "Bus stops retrieved successfully."
+  },
+  "data": [
+    {
+      "code": "78259",
+      "roadName": "Jln Loyang Besar",
+      "description": "Opp Lighthouse",
+      "location": {
+        "latitude": 1.378021153,
+        "longitude": 103.9593658
+      }
+    },
+    {
+      "code": "78251",
+      "roadName": "Jln Loyang Besar",
+      "description": "Lighthouse",
+      "location": {
+        "latitude": 1.378240905,
+        "longitude": 103.9595522
+      }
+    },
+    {
+      "code": "78261",
+      "roadName": "Jln Loyang Besar",
+      "description": "Opp Ripple Bay",
+      "location": {
+        "latitude": 1.378658311,
+        "longitude": 103.9606174
+      }
+    },
+    {
+      "code": "78099",
+      "roadName": "Jln Loyang Besar",
+      "description": "Aft Loyang Gdns",
+      "location": {
+        "latitude": 1.377406601,
+        "longitude": 103.957088
+      }
+    },
+    {
+      "code": "78269",
+      "roadName": "Jln Loyang Besar",
+      "description": "Ripple Bay",
+      "location": {
+        "latitude": 1.378618754,
+        "longitude": 103.9609618
+      }
+    },
+    {
+      "code": "78091",
+      "roadName": "Pasir Ris Cl",
+      "description": "Opp Downtown East",
+      "location": {
+        "latitude": 1.376816179,
+        "longitude": 103.9562471
+      }
+    },
+    {
+      "code": "78119",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Opp Blk 479",
+      "location": {
+        "latitude": 1.37564,
+        "longitude": 103.957524
+      }
+    },
+    {
+      "code": "78111",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Blk 479",
+      "location": {
+        "latitude": 1.375457812,
+        "longitude": 103.9579863
+      }
+    },
+    {
+      "code": "78129",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Opp Blk 233",
+      "location": {
+        "latitude": 1.375131358,
+        "longitude": 103.9621203
+      }
+    },
+    {
+      "code": "78121",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Bet Blks 232/233",
+      "location": {
+        "latitude": 1.374859688,
+        "longitude": 103.9620005
+      }
+    },
+    {
+      "code": "78229",
+      "roadName": "Pasir Ris Dr 4",
+      "description": "Blk 485",
+      "location": {
+        "latitude": 1.374111399,
+        "longitude": 103.9609385
+      }
+    },
+    {
+      "code": "78221",
+      "roadName": "Pasir Ris Dr 4",
+      "description": "Blk 231A CP",
+      "location": {
+        "latitude": 1.374175177,
+        "longitude": 103.9612256
+      }
+    },
+    {
+      "code": "78271",
+      "roadName": "Jln Loyang Besar",
+      "description": "Casa Pasir Ris",
+      "location": {
+        "latitude": 1.379222548,
+        "longitude": 103.9638335
+      }
+    },
+    {
+      "code": "78231",
+      "roadName": "Pasir Ris St 41",
+      "description": "Opp Blk 482",
+      "location": {
+        "latitude": 1.373443032,
+        "longitude": 103.9598604
+      }
+    },
+    {
+      "code": "78081",
+      "roadName": "Pasir Ris Dr 6",
+      "description": "Blk 467",
+      "location": {
+        "latitude": 1.373688035,
+        "longitude": 103.956356
+      }
+    },
+    {
+      "code": "78279",
+      "roadName": "Jln Loyang Besar",
+      "description": "Opp Loyang Townhse",
+      "location": {
+        "latitude": 1.379235677,
+        "longitude": 103.9642668
+      }
+    },
+    {
+      "code": "78089",
+      "roadName": "Pasir Ris Dr 6",
+      "description": "Blk 405",
+      "location": {
+        "latitude": 1.373611419,
+        "longitude": 103.9560887
+      }
+    },
+    {
+      "code": "78109",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Downtown East",
+      "location": {
+        "latitude": 1.375333227,
+        "longitude": 103.9538814
+      }
+    },
+    {
+      "code": "78101",
+      "roadName": "Pasir Ris Dr 3",
+      "description": "Opp Downtown East",
+      "location": {
+        "latitude": 1.375066444,
+        "longitude": 103.954048
+      }
+    },
+    {
+      "code": "78159",
+      "roadName": "Pasir Ris Dr 4",
+      "description": "Opp Blk 230",
+      "location": {
+        "latitude": 1.372464739,
+        "longitude": 103.9605378
+      }
+    }
+  ],
+  "paginationLinks": {
+    "self": "https://api.stb.gov.sg/services/transport/v2/bus-stops?offset=0&limit=20&location=1.378619,103.9587713",
+    "first": "https://api.stb.gov.sg/services/transport/v2/bus-stops?offset=0&limit=20&location=1.378619,103.9587713",
+    "next": "https://api.stb.gov.sg/services/transport/v2/bus-stops?offset=20&limit=20&location=1.378619,103.9587713"
+  },
+  "totalRecords": 28,
+  "retrievedRecords": 20
+}
